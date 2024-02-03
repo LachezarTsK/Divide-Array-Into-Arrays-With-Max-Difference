@@ -50,8 +50,6 @@ public class Solution
             value -= (--frequency[value] > 0) ? 1 : 0;
             indexArray += (indexSubarray + 1) / SUBARRAY_LENGTH;
             indexSubarray = (indexSubarray + 1) % SUBARRAY_LENGTH;
-
-
         }
         return dividedArray;
     }
